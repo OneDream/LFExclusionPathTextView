@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B9125C1B2AC8870066AF4D /* LFExclusionPathTextView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17B9125B1B2AC8870066AF4D /* LFExclusionPathTextView.h */; };
+		17B9125E1B2AC8870066AF4D /* LFExclusionPathTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B9125D1B2AC8870066AF4D /* LFExclusionPathTextView.m */; };
+		17B912641B2AC8870066AF4D /* libLFExclusionPathTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B912581B2AC8870066AF4D /* libLFExclusionPathTextView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B912651B2AC8870066AF4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B912501B2AC8870066AF4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B912571B2AC8870066AF4D;
+			remoteInfo = LFExclusionPathTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17B912561B2AC8870066AF4D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				17B9125C1B2AC8870066AF4D /* LFExclusionPathTextView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17B912581B2AC8870066AF4D /* libLFExclusionPathTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFExclusionPathTextView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B9125B1B2AC8870066AF4D /* LFExclusionPathTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFExclusionPathTextView.h; sourceTree = "<group>"; };
+		17B9125D1B2AC8870066AF4D /* LFExclusionPathTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFExclusionPathTextView.m; sourceTree = "<group>"; };
+		17B912631B2AC8870066AF4D /* LFExclusionPathTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFExclusionPathTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B912691B2AC8870066AF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B912551B2AC8870066AF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B912601B2AC8870066AF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B912641B2AC8870066AF4D /* libLFExclusionPathTextView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B9124F1B2AC8870066AF4D = {
+			isa = PBXGroup;
+			children = (
+				17B9125A1B2AC8870066AF4D /* LFExclusionPathTextView */,
+				17B912671B2AC8870066AF4D /* LFExclusionPathTextViewTests */,
+				17B912591B2AC8870066AF4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17B912591B2AC8870066AF4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B912581B2AC8870066AF4D /* libLFExclusionPathTextView.a */,
+				17B912631B2AC8870066AF4D /* LFExclusionPathTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B9125A1B2AC8870066AF4D /* LFExclusionPathTextView */ = {
+			isa = PBXGroup;
+			children = (
+				17B9125B1B2AC8870066AF4D /* LFExclusionPathTextView.h */,
+				17B9125D1B2AC8870066AF4D /* LFExclusionPathTextView.m */,
+			);
+			path = LFExclusionPathTextView;
+			sourceTree = "<group>";
+		};
+		17B912671B2AC8870066AF4D /* LFExclusionPathTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B912681B2AC8870066AF4D /* Supporting Files */,
+			);
+			path = LFExclusionPathTextViewTests;
+			sourceTree = "<group>";
+		};
+		17B912681B2AC8870066AF4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B912691B2AC8870066AF4D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B912571B2AC8870066AF4D /* LFExclusionPathTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B9126C1B2AC8870066AF4D /* Build configuration list for PBXNativeTarget "LFExclusionPathTextView" */;
+			buildPhases = (
+				17B912541B2AC8870066AF4D /* Sources */,
+				17B912551B2AC8870066AF4D /* Frameworks */,
+				17B912561B2AC8870066AF4D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFExclusionPathTextView;
+			productName = LFExclusionPathTextView;
+			productReference = 17B912581B2AC8870066AF4D /* libLFExclusionPathTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		17B912621B2AC8870066AF4D /* LFExclusionPathTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B9126F1B2AC8870066AF4D /* Build configuration list for PBXNativeTarget "LFExclusionPathTextViewTests" */;
+			buildPhases = (
+				17B9125F1B2AC8870066AF4D /* Sources */,
+				17B912601B2AC8870066AF4D /* Frameworks */,
+				17B912611B2AC8870066AF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B912661B2AC8870066AF4D /* PBXTargetDependency */,
+			);
+			name = LFExclusionPathTextViewTests;
+			productName = LFExclusionPathTextViewTests;
+			productReference = 17B912631B2AC8870066AF4D /* LFExclusionPathTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B912501B2AC8870066AF4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = aliexpress;
+				TargetAttributes = {
+					17B912571B2AC8870066AF4D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					17B912621B2AC8870066AF4D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 17B912531B2AC8870066AF4D /* Build configuration list for PBXProject "LFExclusionPathTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B9124F1B2AC8870066AF4D;
+			productRefGroup = 17B912591B2AC8870066AF4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B912571B2AC8870066AF4D /* LFExclusionPathTextView */,
+				17B912621B2AC8870066AF4D /* LFExclusionPathTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B912611B2AC8870066AF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B912541B2AC8870066AF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B9125E1B2AC8870066AF4D /* LFExclusionPathTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B9125F1B2AC8870066AF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B912661B2AC8870066AF4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B912571B2AC8870066AF4D /* LFExclusionPathTextView */;
+			targetProxy = 17B912651B2AC8870066AF4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17B9126A1B2AC8870066AF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B9126B1B2AC8870066AF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B9126D1B2AC8870066AF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17B9126E1B2AC8870066AF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		17B912701B2AC8870066AF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LFExclusionPathTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17B912711B2AC8870066AF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LFExclusionPathTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B912531B2AC8870066AF4D /* Build configuration list for PBXProject "LFExclusionPathTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B9126A1B2AC8870066AF4D /* Debug */,
+				17B9126B1B2AC8870066AF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B9126C1B2AC8870066AF4D /* Build configuration list for PBXNativeTarget "LFExclusionPathTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B9126D1B2AC8870066AF4D /* Debug */,
+				17B9126E1B2AC8870066AF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B9126F1B2AC8870066AF4D /* Build configuration list for PBXNativeTarget "LFExclusionPathTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B912701B2AC8870066AF4D /* Debug */,
+				17B912711B2AC8870066AF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B912501B2AC8870066AF4D /* Project object */;
+}
